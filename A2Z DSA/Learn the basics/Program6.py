@@ -2,8 +2,10 @@
 # Name = Indrajeet Mondal; Date = 17th July 2024
 # SourceCode
 
+
 def addTwoNum(a, b):
-    return a+b
+    return a + b
+
 
 x = int(input("Enter a number:- "))
 y = int(input("Enter another number:- "))
