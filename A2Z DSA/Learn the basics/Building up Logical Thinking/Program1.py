@@ -7,5 +7,5 @@ y = int(input("Enter the number of columns in the pattern:- "))
 
 for var1 in range(x):
     for var2 in range(y):
-        print("* ", end='')
+        print("* ", end="")
     print()
