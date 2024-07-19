@@ -4,7 +4,7 @@
 
 x = int(input("Enter the height of the pyramid:- "))
 
-# Outer loop for the height of the pyramid
+# Outer loop for height of the pyramid
 for var1 in range(1, x + 1):
     # Inner loop for rows
     for var2 in range(var1):
