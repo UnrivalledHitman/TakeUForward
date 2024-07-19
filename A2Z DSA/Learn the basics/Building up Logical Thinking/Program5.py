@@ -4,7 +4,9 @@
 
 x = int(input("Enter the number of rows in the pyramid:- "))
 
+# Outer loop for height of the pyramid
 for var1 in range(x, 0, -1):
+    # 
     for var2 in range(var1):
         print("* ", end='')
     print()
