@@ -2,7 +2,7 @@
 # Name = Indrajeet Mondal; Date = 20th July 2024
 # SourceCode
 
-x = int(input("Enter the half-height of the diamond pattern:- "))
+x = int(input("Enter half-height of the diamond pattern:- "))
 
 # Loop 1:- for normal pyramid
 for var1 in range(x):
