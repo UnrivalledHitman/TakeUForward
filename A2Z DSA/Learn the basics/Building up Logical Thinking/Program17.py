@@ -6,20 +6,23 @@ x = int(input("Enter height of the pyramid pattern:- "))
 
 # Outer loop for the number of rows.
 for i in range(x):
-    # For printing the left side spaces.
+    # To print the left side spaces
     for j in range(x - i - 1):
         print(" ", end="")
-    # For printing the characters.
-    ch = "A"
-    break_point = (2 * i + 1) // 2
-    for j in range(1, 2 * i + 1 + 1):
-        print(ch, end="")
-        if j <= break_point:
-            # ord() gives the unicode of the character passed as argument
-            ch = chr(ord(ch) + 1)
+    # To print characters
+    print_char = ord("A")
+    # Defining mid-point
+    brk_pt = (2 * i + 1) // 2
+    # Starting to print
+    for k in range(1, 2 * i + 2):
+        print(chr(print_char), end="")
+        # Increasing till mid
+        if k <= brk_pt:
+            print_char += 1
+        # Decreasing after mid
         else:
-            ch = chr(ord(ch) - 1)
-    # for printing the right side spaces
-    for j in range(x - i - 1):
+            print_char -= 1
+    # To print the right side of spaces
+    for l in range(x - i - 1):
         print(" ", end="")
     print()
