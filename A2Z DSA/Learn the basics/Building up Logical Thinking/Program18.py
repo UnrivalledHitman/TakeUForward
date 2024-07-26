@@ -7,6 +7,7 @@ x = int(input("Enter height of the pyramid:- "))
 # Outer loop for the height of the pyramid
 for i in range(x):
     # Inner loop for printing rows
-    for ch in range(ord("A") + x - 1 - i, ord("A") + x):
+    print_char = ord("A")
+    for ch in range(print_char + x - 1 - i, print_char + x):
         print(chr(ch), end=" ")
     print()
