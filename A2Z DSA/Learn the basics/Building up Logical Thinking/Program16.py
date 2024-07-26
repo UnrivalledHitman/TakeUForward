@@ -8,7 +8,7 @@ print_char = ord("A")
 
 # Outer loop for height of the pyramid
 for i in range(1, x + 1):
-    # Inner loop for each row
+    # Inner loop for each row elements printing
     for j in range(i):
         print(chr(print_char), end="")
     print_char += 1
