@@ -8,6 +8,6 @@ x = int(input("Enter height of the pyramid:- "))
 for i in range(x):
     # Inner loop for printing rows
     print_char = ord("A")
-    for ch in range(print_char + x - 1 - i, print_char + x):
+    for ch in range(print_char + x - i - 1, print_char + x):
         print(chr(ch), end=" ")
     print()
