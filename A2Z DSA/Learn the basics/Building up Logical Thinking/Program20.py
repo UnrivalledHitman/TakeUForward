@@ -1,4 +1,4 @@
-# Program print two adjoint crows on the vertical axis pattern
+# Program to print two adjoint crows on the vertical axis pattern
 # Name = Indrajeet Mondal; Date = 27th July 2024
 # SourceCode
 

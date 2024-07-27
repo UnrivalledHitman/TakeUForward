@@ -1,4 +1,4 @@
-# Program print hollow diamond within rectangle pattern
+# Program to print hollow diamond within rectangle pattern
 # Name = Indrajeet Mondal; Date = 27th July 2024
 # SourceCode
 
