@@ -1,4 +1,4 @@
-# Print a hollow square pattern
+# Program to print a hollow square pattern
 # Name = Indrajeet Mondal; Date = 27th July 2024
 # SourceCode
 
