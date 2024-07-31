@@ -1,4 +1,4 @@
-# Check for palindrome (Brute Force Approach)
+# Check for palindrome
 # Name = Indrajeet Mondal; Date = 31st July 2024
 # SourceCode
 
