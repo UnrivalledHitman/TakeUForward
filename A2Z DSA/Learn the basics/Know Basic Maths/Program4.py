@@ -4,7 +4,6 @@
 
 x = int(input("Enter a number:- "))
 z = x
-digits = []
 
 # Extracting all the digits as well as printing in reverse order
 while z > 0:
