@@ -1,4 +1,4 @@
-# Reverse an array
+# Reverse an array (used in built method rather than recursion)
 # Name = Indrajeet Mondal; Date = 3rd August 2024
 # SourceCode
 
